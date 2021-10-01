@@ -8,6 +8,19 @@
     <fragment
         android:id="@+id/galleryfragment"
         android:name="com.example.training.ui.gallery.GalleryFragment"
-        android:label="fragment_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="Pictures "
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_galleryfragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.training.ui.gallery.details.DetailsFragment"
+        android:label="Photo"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="photo"
+            app:argType="com.example.training.models.picture" />
+    </fragment>
 </navigation>

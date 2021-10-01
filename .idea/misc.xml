@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/gradient.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.24895833333333334" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1923492431640625" />
         <entry key="app/src/main/res/layout/item_photo.xml" value="0.1" />
       </map>

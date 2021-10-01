@@ -2,9 +2,6 @@ package com.example.training.models
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
-data class pictures(
-    val results: ArrayList<picture> = ArrayList<picture>()
-)
 
 @Parcelize
 data class picture(
@@ -15,3 +12,5 @@ data class picture(
     val url: String,
     val width: Int
 ) : Parcelable
+
+
