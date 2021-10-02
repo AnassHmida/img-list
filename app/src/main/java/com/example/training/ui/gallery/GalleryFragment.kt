@@ -34,8 +34,7 @@ import kotlinx.coroutines.launch
         _binding = FragmentGalleryBinding.bind(view)
 
         val adapter = GalleryAdapter(this)
-        binding.apply {
-
+        with(binding){
             recyclerView.setHasFixedSize(true)
             recyclerView.adapter = adapter
         }

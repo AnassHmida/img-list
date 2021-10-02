@@ -26,7 +26,6 @@ class GalleryViewModel @Inject constructor(private val respository: picturesApiR
 companion object{
 
     private const val save_QUERY = "default_query"
-    private const val defaul_QUERY = "cats"
 }
 
 }
